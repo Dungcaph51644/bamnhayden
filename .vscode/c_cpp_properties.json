@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "name": "STM32F103C8",
+      "compilerPath": "${env:HOME}/Library/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/15.2.1-1.1.1/.content/bin/arm-none-eabi-gcc",
+      "compilerArgs": ["-mcpu=cortex-m3", "-mthumb"],
+      "intelliSenseMode": "gcc-arm",
+      "cStandard": "gnu11",
+      "includePath": [
+        "${workspaceFolder}/Core/Inc",
+        "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc",
+        "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+        "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+        "${workspaceFolder}/Drivers/CMSIS/Include"
+      ],
+      "defines": ["DEBUG", "USE_HAL_DRIVER", "STM32F103xB"],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/Core/Inc",
+          "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc",
+          "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+          "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+          "${workspaceFolder}/Drivers/CMSIS/Include"
+        ]
+      }
+    }
+  ],
+  "version": 4
+}
