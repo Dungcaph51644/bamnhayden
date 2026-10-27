@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = "Debug/bamnhayled.elf"
+elf = "Debug/bamnhayled.elf"
